@@ -41,9 +41,11 @@ const Header = () => {
             <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
               <Search className="h-5 w-5" />
             </Button>
-            <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
-              Baixar App
-            </Button>
+            <a href="https://www.mediafire.com/file/6l58gs83429ao2z/vercel.apk/file" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
+                Baixar App
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -69,9 +71,11 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button className="mt-4 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold w-full">
-                Baixar App
-              </Button>
+              <a href="https://www.mediafire.com/file/6l58gs83429ao2z/vercel.apk/file" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="mt-4 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold w-full">
+                  Baixar App
+                </Button>
+              </a>
             </nav>
           </div>
         )}
