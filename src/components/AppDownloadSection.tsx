@@ -72,7 +72,7 @@ const AppDownloadSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               
               <a
-                href="#"
+                href="https://www.mediafire.com/file/6l58gs83429ao2z/vercel.apk/file"
                 className="inline-flex items-center justify-center gap-3 px-6 py-4 bg-card text-card-foreground rounded-xl hover:bg-card/90 transition-all duration-300 shadow-hero hover:shadow-card-hover hover:-translate-y-1"
               >
                 <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
